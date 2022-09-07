@@ -1,5 +1,5 @@
 // Make sure this is up to date with support article
-static TRANSITIONS: &'static [Transition] = &[
+static TRANSITIONS: &[Transition] = &[
     Transition::new("addw2", "PBx0Dx2", false),
     Transition::new("darp6", "N150CU", false), // TODO: set liberate to true
     // 17-inch 1660Ti
@@ -10,6 +10,7 @@ static TRANSITIONS: &'static [Transition] = &[
     Transition::new_variant("gaze15", 2, "NH50DB", false),
     // 15-inch 1650/1650Ti
     Transition::new_variant("gaze15", 3, "NH50DB", false),
+    Transition::new("oryp5", "P950Ex", false),
 ];
 
 struct Transition {
